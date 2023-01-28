@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculatar</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="input">
+            <input type="text" id="display" disabled>
+        </div>
+        <div class="buttons">
+            <button onclick="numClick(7)">7</button>
+            <button onclick="numClick(8)">8</button>
+            <button onclick="numClick(9)">9</button>
+            <button onclick="operClick('+')">+</button>
+        </div>
+        <div class="buttons">
+            <button onclick="numClick(4)">4</button>
+            <button onclick="numClick(5)">5</button>
+            <button onclick="numClick(6)">6</button>
+            <button onclick="operClick('-')">-</button>
+        </div>
+        <div class="buttons">
+            <button onclick="numClick(1)">1</button>
+            <button onclick="numClick(2)">2</button>
+            <button onclick="numClick(3)">3</button>
+            <button onclick="operClick('*')">*</button>
+        </div>
+        <div class="buttons">
+            <button onclick="numClick(0)">0</button>
+            <button onclick="clearDisplay()">AC</button>
+            <button onclick="operClick('=')">=</button>
+            <button onclick="operClick('%')">%</button>
+            <button onclick="operClick('/')">/</button>
+        </div>
+    </div>
+<script src="./index.js"></script>
+</body>
+</html>
